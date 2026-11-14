@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "description": "",
   "private": true,
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.19.2"
+  }
 }

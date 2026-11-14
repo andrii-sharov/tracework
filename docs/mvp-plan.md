@@ -8,7 +8,7 @@ Folder names match `project-structure.md`.
 ### Workspaces and tooling
 
 - [x] Create `shared/`, `client/`, `server/` folders, each with its own `package.json`
-- [ ] Add root `tsconfig.base.json`; extend it in each workspace
+- [x] Add root `tsconfig.base.json`; extend it in each workspace
 - [ ] Set up Oxlint (and optionally Oxfmt) at the root
 - [ ] Set up Vitest in `client/`, `server/`, `shared/`
 - [ ] Add root scripts: `dev`, `build`, `lint`, `test`
