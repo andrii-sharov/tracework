@@ -84,6 +84,12 @@ Use **shadcn/ui** for shared controls such as buttons, form fields, dialogs, men
 
 Use short transitions for opening the details panel and signaling the active drop zone. dnd-kit handles drag behavior. During design, check that the active stage and recent replies are easy to spot in every theme, and that loading, empty, and error states stay readable.
 
+## Versions and changelog
+
+The app has one semver version for client and server, kept in the root `package.json`. A small version label in the app opens a **What's new** dialog: the latest release first, older releases below in an accordion.
+
+The changelog is a hand-written, user-facing `CHANGELOG.md` in the repo root. The client bundles it at build time and renders it as Markdown; no database or release tool is needed. The client also shows the commit SHA for debugging, and the server reports its version so a mismatch after a deploy can be detected. Release tools (Changesets, release-please) can be added later if manual releases become tedious.
+
 ## Technical foundation
 
 | Area                        | Choice                                                                                                                                                                              |

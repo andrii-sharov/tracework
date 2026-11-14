@@ -7,7 +7,7 @@ Folder names match `project-structure.md`.
 
 ### Workspaces and tooling
 
-- [ ] Create `shared/`, `client/`, `server/` folders, each with its own `package.json`
+- [x] Create `shared/`, `client/`, `server/` folders, each with its own `package.json`
 - [ ] Add root `tsconfig.base.json`; extend it in each workspace
 - [ ] Set up Oxlint (and optionally Oxfmt) at the root
 - [ ] Set up Vitest in `client/`, `server/`, `shared/`
@@ -21,7 +21,7 @@ Folder names match `project-structure.md`.
 
 ### Client skeleton
 
-- [ ] Scaffold React + TypeScript with Vite in `client/`
+- [x] Scaffold React + TypeScript with Vite in `client/`
 - [ ] Install and configure Tailwind CSS
 - [ ] Initialize shadcn/ui (`components/ui/`)
 - [ ] Add React Router with an empty page per route
@@ -227,6 +227,17 @@ Folder names match `project-structure.md`.
 ## Phase 5 — Release
 
 - [ ] Full test run and lint pass
+
+### Versioning and changelog
+
+- [ ] Root `CHANGELOG.md` in Keep a Changelog style: `## Unreleased` on top, then `## x.y.z — YYYY-MM-DD` per release, user-facing lines only
+- [ ] Inject app version (root `package.json`) and commit SHA into the client with Vite `define`
+- [ ] Return the version from the server (`GET /health` or `GET /version`)
+- [ ] Parse function: changelog text → list of `{ version, date, body }`, skipping `Unreleased`
+- [ ] Tests for the parse function
+- [ ] Version label in the app navigation or user menu (a button)
+- [ ] "What's new" dialog: latest version expanded, older versions in an accordion, rendered with `react-markdown`
+- [ ] Release flow: rename `Unreleased`, run `npm version` at the root, deploy
 
 ### Staging
 
