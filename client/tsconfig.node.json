@@ -7,7 +7,7 @@
 
     "module": "nodenext",
     "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "noEmit": true
   },
   "include": ["vite.config.ts"]
 }

@@ -1,12 +1,11 @@
 {
   "name": "@tracework/shared",
   "version": "0.1.0",
-  "description": "",
   "private": true,
-  "scripts": {
-  },
+  "description": "",
   "keywords": [],
-  "author": "",
   "license": "ISC",
-  "type": "module"
+  "author": "",
+  "type": "module",
+  "scripts": {}
 }

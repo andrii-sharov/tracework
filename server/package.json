@@ -1,13 +1,13 @@
 {
   "name": "@tracework/server",
   "version": "0.1.0",
-  "description": "",
   "private": true,
-  "scripts": {},
+  "description": "",
   "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "module",
+  "scripts": {},
   "devDependencies": {
     "@types/node": "^24.19.2"
   }

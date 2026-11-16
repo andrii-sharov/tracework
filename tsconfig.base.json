@@ -17,6 +17,6 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
 
-    "exactOptionalPropertyTypes": true,
-  },
+    "exactOptionalPropertyTypes": true
+  }
 }

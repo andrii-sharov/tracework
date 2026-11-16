@@ -1,6 +1,5 @@
 function App() {
-
-  return 'hello'
+  return 'a';
 }
 
-export default App
+export default App;
