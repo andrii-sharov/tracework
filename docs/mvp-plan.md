@@ -9,8 +9,8 @@ Folder names match `project-structure.md`.
 
 - [x] Create `shared/`, `client/`, `server/` folders, each with its own `package.json`
 - [x] Add root `tsconfig.base.json`; extend it in each workspace
-- [ ] Set up Oxlint (and optionally Oxfmt) at the root
-- [ ] Set up Vitest in `client/`, `server/`, `shared/`
+- [x] Set up Oxlint (and optionally Oxfmt) at the root
+- [x] Set up Vitest in `client/`, `server/`, `shared/`
 - [ ] Add root scripts: `dev`, `build`, `lint`, `test`
 - [ ] Fill in `.env.example` with all required variable names (no values)
 

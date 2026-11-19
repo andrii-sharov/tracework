@@ -14,13 +14,18 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "test": "vitest",
+    "dev": "concurrently -n \"API,WEB\" -c \"blue,green\" \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build --workspaces --if-present",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "format": "oxfmt",
     "format:check": "oxfmt --check"
   },
   "devDependencies": {
+    "concurrently": "^10.0.7",
     "oxfmt": "^0.78.0",
-    "oxlint": "^1.93.0"
+    "oxlint": "^1.93.0",
+    "vitest": "^5.1.0"
   }
 }
